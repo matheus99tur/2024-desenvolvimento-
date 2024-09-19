@@ -1,0 +1,31 @@
+# ### Requisição para a raiz da API
+# GET http://localhost:5204
+
+# ### Requisição para a segunda funcionalidade da API
+# GET http://localhost:5204/s
+
+# ### Requisição para a segunda funcionalidade da API
+# GET http://localhost:5204/retornar
+
+# GET http://localhost:5204/produto/lista
+
+
+
+### Requisição para a raiz da API   
+GET http://localhost:5204
+
+### Listar Produtos
+GET http://localhost:5204/produto/listar
+
+### Buscar Produtos
+GET http://localhost:5204/produto/buscar/Bolacha
+
+### Cadastrar Produto
+POST http://localhost:5204/produto/cadastrar
+Content-Type: application/json
+
+{
+    "nome" : "Bolacha",
+    "preco" : 4.5,
+    "quantidade" : 159
+}
